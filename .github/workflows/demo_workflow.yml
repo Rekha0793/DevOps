@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 jobs:
   install_software:
-    runs-on: [ self-hosted ]
+    runs-on: [ ubuntu]
     steps:
     - name: Checkout
       uses: actions/checkout@master
